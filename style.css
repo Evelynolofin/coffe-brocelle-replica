@@ -288,7 +288,7 @@ button{
         display: block;
         width: 10%;
         font-size: 20px;
-        padding: 0 50px;
+        padding: 0 10px;
         background-color: #DBBCA1;
         text-align: center;
         border-radius: 20px;
@@ -381,7 +381,7 @@ button{
 
     .footer{
         margin: 0;
-        padding: 0 50px;
+        padding: 0 10px;
         box-sizing: border-box;
         display: grid;
         grid-template-columns: 1fr;
