@@ -264,7 +264,7 @@ button{
 
 @media screen and (max-width:768px) {
     nav{
-        max-height: 60%;
+        max-height: 40%;
     }
     .hero{
         display: flex;
@@ -277,7 +277,7 @@ button{
     }
     .sidebar{
         display: block;
-        width: 30%;
+        width: 10%;
         background-color: #DBBCA1;
         text-align: center;
         border-radius: 20px;
