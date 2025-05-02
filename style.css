@@ -446,6 +446,8 @@ button{
             line-height: 27px;
             margin-top: 30px;
             padding: 15px 30px;
+            display: flex;
+            align-items: center;
             border-radius: 6px;
             border: 0;
         }
