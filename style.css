@@ -120,6 +120,8 @@ section{
         padding: 10px 30px;
         font-size: 18px;
         line-height: 27px;
+        display: flex;
+        align-items: center;
         border-radius: 6px;
         border: 0;
     }
@@ -262,6 +264,17 @@ button{
     }
 }
 
+.copyright{
+    background-color: #DBBCA1;
+    text-align: center;
+    padding: 15px 0;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-size: 400;
+}
+
+
 @media screen and (max-width:768px) {
     nav{
         max-height: 40%;
@@ -339,7 +352,9 @@ button{
             font-size: 18px;
             line-height: 27px;
             margin-top: 30px;
-            padding: 15px 30px;
+            padding: 20px 30px;
+            display: flex;
+            align-items: center;
             border-radius: 6px;
             border: 0;
         }
@@ -348,7 +363,7 @@ button{
     .sec-img{
         text-align: center;
         img{
-            width: 300px;
+            width: 550px;
             border-radius: 70px;
         }
     }
@@ -394,4 +409,53 @@ button{
         margin: 0;
     }
     
+}
+
+@media screen and (max-width: 400px) {
+    section{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 30px 0;
+    }
+    .sec-text{
+        padding-left: 0;
+        padding: 0 20px;
+        h1{
+            font-family: "Poppins", sans-serif;
+            line-height: 42px;
+            font-size: 28px;
+            font-weight: 700;
+        }
+        h2{
+            font-family: "Poppins", sans-serif;
+            line-height: 35px;
+            font-size: 28px;
+            font-weight: 400;
+        }
+        p{
+            font-family: "Inter", sans-serif;
+            line-height: 25px;
+            font-size: 17px;
+            font-weight: 400;
+            padding-top: 20px;
+        }
+        button{
+            background-color: #2F1F14;
+            color: white;
+            font-size: 18px;
+            line-height: 27px;
+            margin-top: 30px;
+            padding: 15px 30px;
+            border-radius: 6px;
+            border: 0;
+        }
+    }
+
+    .sec-img{
+        text-align: center;
+        img{
+            width: 300px;
+            border-radius: 70px;
+        }
+    }
 }
