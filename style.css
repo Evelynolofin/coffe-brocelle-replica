@@ -123,8 +123,70 @@ section{
     }
 }
 
+.review-section{
+    max-width: 1280px;
+    margin: auto;
+    background-color: #655546;
+    color: white;
+    text-align: center;
+    padding: 50px 100px;
+    h2{
+        font-family: "Poppins", sans-serif;
+        font-size: 28px;
+        line-height: 42px;
+        font-weight: 400;
+    }
+    
+}
+
+.review-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 100px;
+    }
+}
+
+.review-card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card{
+    background-color: #DBBCA1;
+    margin: 10px 20px;
+    padding: 30px 25px;
+    border-radius: 10px;
+    h1{
+        font-family: "Montserrat", sans-serif;
+        font-size: 42px;
+        line-height: 63px;
+        font-weight: 700;
+    }
+    p{
+        font-family: "Inter", sans-serif;
+        font-size: 15px;
+        line-height: 23px;
+        font-weight: 500;
+        color: #2F1F14;
+        padding-bottom: 20px;
+    }
+    span{
+        color: #0A424F;
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 700;
+    }
+}
+
 
 @media screen and (max-width:768px) {
+    nav{
+        max-height: 60%;
+    }
     .hero{
         display: flex;
     }
@@ -136,7 +198,7 @@ section{
     }
     .sidebar{
         display: block;
-        width: 10%;
+        width: 30%;
         background-color: #DBBCA1;
         text-align: center;
         border-radius: 20px;
@@ -207,8 +269,21 @@ section{
     .sec-img{
         text-align: center;
         img{
-            width: 250px;
+            width: 300px;
             border-radius: 70px;
         }
+    }
+
+    .review-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+
+    .review-card{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+        margin: 0;
     }
 }
