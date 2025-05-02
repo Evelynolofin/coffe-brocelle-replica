@@ -278,6 +278,7 @@ button{
     }
     .hero{
         display: flex;
+        justify-content: space-evenly;
     }
     .nav1{
         display: none;
@@ -288,7 +289,6 @@ button{
     .sidebar{
         display: block;
         width: 15%;
-        margin-right: 30px;
         font-size: 20px;
         background-color: #DBBCA1;
         text-align: center;
