@@ -89,7 +89,7 @@ nav{
     }
     .sidebar{
         display: block;
-        width: 50px;
+        width: 60px;
         background-color: #DBBCA1;
         text-align: center;
         border-radius: 20px;
@@ -103,7 +103,8 @@ nav{
                 font-weight: 400;
                 font-style: normal;
                 font-size:50px;
-                line-height: 21px;       
+                line-height: 42px;
+                padding: 0 10px;       
         }
         p{
             font-family: "Galada", cursive;
